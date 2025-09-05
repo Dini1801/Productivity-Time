@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⏳ Productivity Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⏳ Productivity Tracker</h1>
+
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Enter task name...">
+      <button id="startBtn">Start</button>
+      <button id="stopBtn" disabled>Stop</button>
+    </div>
+
+    <div class="timer">
+      <h2 id="currentTask">No task running</h2>
+      <p id="timerDisplay">00:00:00</p>
+    </div>
+
+    <h2>📋 Task History</h2>
+    <ul id="taskHistory"></ul>
+
+    <h3 id="totalTime">Total Time Today: 00:00:00</h3>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
